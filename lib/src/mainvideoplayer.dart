@@ -15,6 +15,7 @@ class VideoPlayerApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Video Player Demo',
       home: VideoPlayerScreen(),
     );
