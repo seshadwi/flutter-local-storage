@@ -1,16 +1,23 @@
-# flutter_local_storage
+# Local Storage dan Video Player
 
-A new Flutter project.
+## Hasil Praktikum 
 
-## Getting Started
+### 1. File Upload 
 
-This project is a starting point for a Flutter application.
+  Melakukan upload file dan menampilkan pada aplikasi
+  
+  | Menekan Button Upload Foto | Memilih Media Upload|
+  |-|-|
+  |![screenshot](images/01.png)|![screenshot](images/02.png)|
+  
+  | Mengakses Foto | Hasil Upload Foto |
+  |-|-|
+  |![screenshot](images/03.png)|![screenshot](images/04.png)|
+  
+### 2. Video Player Plugin
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  Menampilkan dan memainkan video pada aplikasi menggunakan plugin **video_player**.
+  
+  | Menekan Button Video Player | Klik Play Pada Video |
+  |-|-|
+  |![screenshot](images/05.png)|![screenshot](images/06.png)|
