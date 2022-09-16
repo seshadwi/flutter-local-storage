@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:flutter_local_storage/src/mainvideoplayer.dart';
 import 'package:image_picker/image_picker.dart';
 
 void main() => runApp(MaterialApp(
@@ -78,6 +79,16 @@ class _HomeState extends State<Home> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const VideoPlayerApp()),
+                );
+              },
+              child: Text('Video Player'),
+            ),
             ElevatedButton(
               onPressed: () {
                 myAlert();
